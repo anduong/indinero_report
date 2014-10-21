@@ -14,4 +14,4 @@ $ ->
   movingCar()
   setInterval (->
     movingCar()
-  ), 10000
+  ), 15000
