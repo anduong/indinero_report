@@ -6,7 +6,7 @@ $ ->
     $('.current-car').css("left" : "10%")
     ferrariEngineSound.play()
     $('.current-car').animate
-      left: "+=27%"
+      left: "+=32%"
     , 5000, ->
       ferrariEngineSound.pause()
       ferrariEngineSound.currentTime = 1
